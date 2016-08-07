@@ -105,6 +105,12 @@ textarea {
   right: 1em;
 }
 
+.bottom-left {
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+}
+
 .bottom-right * {
   vertical-align: bottom !important;
 }

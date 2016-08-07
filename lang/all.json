@@ -1,369 +1,94 @@
-[{
-    "locale": "af",
-    "country": "Afrikaans",
-    "string": "Geen."
-}, {
-    "locale": "ar",
-    "country": "Arabic",
-    "string": "لا."
-}, {
-    "locale": "az",
-    "country": "Azerbaijani",
-    "string": "Yox."
-}, {
-    "locale": "be",
-    "country": "Belarusian",
-    "string": "Няма."
-}, {
-    "locale": "bg",
-    "country": "Bulgarian",
-    "string": "Не."
-}, {
-    "locale": "bn",
-    "country": "Bengali",
-    "string": "না."
-}, {
-    "locale": "bs",
-    "country": "Bosnian",
-    "string": "Ne."
-}, {
-    "locale": "ca",
-    "country": "Catalan",
-    "string": "No."
-}, {
-    "locale": "ceb",
-    "country": "Cebuano",
-    "string": "Dili"
-}, {
-    "locale": "cs",
-    "country": "Czech",
-    "string": "Ne."
-}, {
-    "locale": "cy",
-    "country": "Welsh",
-    "string": "No."
-}, {
-    "locale": "da",
-    "country": "Danish",
-    "string": "Ingen."
-}, {
-    "locale": "de",
-    "country": "German",
-    "string": "Nein."
-}, {
-    "locale": "el",
-    "country": "Greek",
-    "string": "Όχι."
-}, {
-    "locale": "en",
-    "country": "English",
-    "string": "No."
-}, {
-    "locale": "eo",
-    "country": "Esperanto",
-    "string": "No."
-}, {
-    "locale": "es",
-    "country": "Spanish",
-    "string": "No."
-}, {
-    "locale": "et",
-    "country": "Estonian",
-    "string": "Ei."
-}, {
-    "locale": "eu",
-    "country": "Basque",
-    "string": "No."
-}, {
-    "locale": "fa",
-    "country": "Persian",
-    "string": "شماره"
-}, {
-    "locale": "fi",
-    "country": "Finnish",
-    "string": "Ei."
-}, {
-    "locale": "fr",
-    "country": "French",
-    "string": "Non."
-}, {
-    "locale": "ga",
-    "country": "Irish",
-    "string": "Uimh"
-}, {
-    "locale": "gl",
-    "country": "Galician",
-    "string": "Non."
-}, {
-    "locale": "gu",
-    "country": "Gujarati",
-    "string": "નં"
-}, {
-    "locale": "ha",
-    "country": "Hausa",
-    "string": "No."
-}, {
-    "locale": "hi",
-    "country": "Hindi",
-    "string": "नहीं।"
-}, {
-    "locale": "hmn",
-    "country": "Hmong",
-    "string": "No."
-}, {
-    "locale": "hr",
-    "country": "Croatian",
-    "string": "Ne."
-}, {
-    "locale": "ht",
-    "country": "Haitian Creole",
-    "string": "No"
-}, {
-    "locale": "hu",
-    "country": "Hungarian",
-    "string": "Nem."
-}, {
-    "locale": "hy",
-    "country": "Armenian",
-    "string": "Ոչ."
-}, {
-    "locale": "id",
-    "country": "Indonesian",
-    "string": "Tidak."
-}, {
-    "locale": "ig",
-    "country": "Igbo",
-    "string": "Ee e"
-}, {
-    "locale": "is",
-    "country": "Icelandic",
-    "string": "Nei"
-}, {
-    "locale": "it",
-    "country": "Italian",
-    "string": "No."
-}, {
-    "locale": "iw",
-    "country": "Hebrew",
-    "string": "לא."
-}, {
-    "locale": "ja",
-    "country": "Japanese",
-    "string": "No."
-}, {
-    "locale": "jw",
-    "country": "Javanese",
-    "string": "No."
-}, {
-    "locale": "ka",
-    "country": "Georgian",
-    "string": "No."
-}, {
-    "locale": "kk",
-    "country": "Kazakh",
-    "string": "Жоқ"
-}, {
-    "locale": "km",
-    "country": "Khmer",
-    "string": "លេខ"
-}, {
-    "locale": "kn",
-    "country": "Kannada",
-    "string": "ನಂ"
-}, {
-    "locale": "ko",
-    "country": "Korean",
-    "string": "아니."
-}, {
-    "locale": "la",
-    "country": "Latin",
-    "string": "No."
-}, {
-    "locale": "lo",
-    "country": "Lao",
-    "string": "ສະບັບເລກທີ"
-}, {
-    "locale": "lt",
-    "country": "Lithuanian",
-    "string": "Ne."
-}, {
-    "locale": "lv",
-    "country": "Latvian",
-    "string": "Nē."
-}, {
-    "locale": "mg",
-    "country": "Malagasy",
-    "string": "No."
-}, {
-    "locale": "mi",
-    "country": "Maori",
-    "string": "No."
-}, {
-    "locale": "mk",
-    "country": "Macedonian",
-    "string": "Бр"
-}, {
-    "locale": "ml",
-    "country": "Malayalam",
-    "string": "നമ്പർ"
-}, {
-    "locale": "mn",
-    "country": "Mongolian",
-    "string": "Үгүй"
-}, {
-    "locale": "mr",
-    "country": "Marathi",
-    "string": "क्रमांक"
-}, {
-    "locale": "ms",
-    "country": "Malay",
-    "string": "No."
-}, {
-    "locale": "mt",
-    "country": "Maltese",
-    "string": "No"
-}, {
-    "locale": "my",
-    "country": "Myanmar (Burmese)",
-    "string": "နံပါတျ"
-}, {
-    "locale": "ne",
-    "country": "Nepali",
-    "string": "न"
-}, {
-    "locale": "nl",
-    "country": "Dutch",
-    "string": "Nee."
-}, {
-    "locale": "no",
-    "country": "Norwegian",
-    "string": "Nei."
-}, {
-    "locale": "ny",
-    "country": "Chichewa",
-    "string": "No."
-}, {
-    "locale": "pa",
-    "country": "Punjabi",
-    "string": "ਨੰ"
-}, {
-    "locale": "pl",
-    "country": "Polish",
-    "string": "Nie."
-}, {
-    "locale": "pt",
-    "country": "Portuguese",
-    "string": "No."
-}, {
-    "locale": "ro",
-    "country": "Romanian",
-    "string": "Nu."
-}, {
-    "locale": "ru",
-    "country": "Russian",
-    "string": "Нет."
-}, {
-    "locale": "si",
-    "country": "Sinhala",
-    "string": "නැත."
-}, {
-    "locale": "sk",
-    "country": "Slovak",
-    "string": "Nie."
-}, {
-    "locale": "sl",
-    "country": "Slovenian",
-    "string": "No."
-}, {
-    "locale": "so",
-    "country": "Somali",
-    "string": "No."
-}, {
-    "locale": "sq",
-    "country": "Albanian",
-    "string": "Jo."
-}, {
-    "locale": "sr",
-    "country": "Serbian",
-    "string": "Не."
-}, {
-    "locale": "st",
-    "country": "Sesotho",
-    "string": "No."
-}, {
-    "locale": "su",
-    "country": "Sundanese",
-    "string": "No."
-}, {
-    "locale": "sv",
-    "country": "Swedish",
-    "string": "Nej."
-}, {
-    "locale": "sw",
-    "country": "Swahili",
-    "string": "Hakuna"
-}, {
-    "locale": "ta",
-    "country": "Tamil",
-    "string": "இல்லை."
-}, {
-    "locale": "te",
-    "country": "Telugu",
-    "string": "నం"
-}, {
-    "locale": "tg",
-    "country": "Tajik",
-    "string": ", №"
-}, {
-    "locale": "th",
-    "country": "Thai",
-    "string": "เลขที่"
-}, {
-    "locale": "tl",
-    "country": "Filipino",
-    "string": "Hindi."
-}, {
-    "locale": "tr",
-    "country": "Turkish",
-    "string": "Yok hayır."
-}, {
-    "locale": "uk",
-    "country": "Ukrainian",
-    "string": "Немає."
-}, {
-    "locale": "ur",
-    "country": "Urdu",
-    "string": "نہیں."
-}, {
-    "locale": "uz",
-    "country": "Uzbek",
-    "string": "Yo&#39;q"
-}, {
-    "locale": "vi",
-    "country": "Vietnamese",
-    "string": "Không."
-}, {
-    "locale": "yi",
-    "country": "Yiddish",
-    "string": "נומ &#39;"
-}, {
-    "locale": "yo",
-    "country": "Yoruba",
-    "string": "No."
-}, {
-    "locale": "zh",
-    "country": "Chinese",
-    "string": "没有。"
-}, {
-    "locale": "zh-CN",
-    "country": "Chinese (Simplified)",
-    "string": "没有。"
-}, {
-    "locale": "zh-TW",
-    "country": "Chinese (Traditional)",
-    "string": "沒有。"
-}, {
-    "locale": "zu",
-    "country": "Zulu",
-    "string": "Cha"
-}]
+{
+  "af": "Geen.",
+  "ar": "لا.",
+  "az": "Yox.",
+  "be": "Няма.",
+  "bg": "Не.",
+  "bn": "না.",
+  "bs": "Ne.",
+  "ca": "No.",
+  "ceb": "Dili",
+  "cs": "Ne.",
+  "cy": "No.",
+  "da": "Ingen.",
+  "de": "Nein.",
+  "el": "Όχι.",
+  "en": "No.",
+  "eo": "No.",
+  "es": "No.",
+  "et": "Ei.",
+  "eu": "No.",
+  "fa": "شماره",
+  "fi": "Ei.",
+  "fr": "Non.",
+  "ga": "Uimh",
+  "gl": "Non.",
+  "gu": "નં",
+  "ha": "No.",
+  "hi": "नहीं।",
+  "hmn": "No.",
+  "hr": "Ne.",
+  "ht": "No",
+  "hu": "Nem.",
+  "hy": "Ոչ.",
+  "id": "Tidak.",
+  "ig": "Ee e",
+  "is": "Nei",
+  "it": "No.",
+  "iw": "לא.",
+  "ja": "No.",
+  "jw": "No.",
+  "ka": "No.",
+  "kk": "Жоқ",
+  "km": "លេខ",
+  "kn": "ನಂ",
+  "ko": "아니.",
+  "la": "No.",
+  "lo": "ສະບັບເລກທີ",
+  "lt": "Ne.",
+  "lv": "Nē.",
+  "mg": "No.",
+  "mi": "No.",
+  "mk": "Бр",
+  "ml": "നമ്പർ",
+  "mn": "Үгүй",
+  "mr": "क्रमांक",
+  "ms": "No.",
+  "mt": "No",
+  "my": "နံပါတျ",
+  "ne": "न",
+  "nl": "Nee.",
+  "no": "Nei.",
+  "ny": "No.",
+  "pa": "ਨੰ",
+  "pl": "Nie.",
+  "pt": "No.",
+  "ro": "Nu.",
+  "ru": "Нет.",
+  "si": "නැත.",
+  "sk": "Nie.",
+  "sl": "No.",
+  "so": "No.",
+  "sq": "Jo.",
+  "sr": "Не.",
+  "st": "No.",
+  "su": "No.",
+  "sv": "Nej.",
+  "sw": "Hakuna",
+  "ta": "இல்லை.",
+  "te": "నం",
+  "tg": ", №",
+  "th": "เลขที่",
+  "tl": "Hindi.",
+  "tr": "Yok hayır.",
+  "uk": "Немає.",
+  "ur": "نہیں.",
+  "uz": "Yo'q",
+  "vi": "Không.",
+  "yi": "נומ '",
+  "yo": "No.",
+  "zh": "没有。",
+  "zh-CN": "没有。",
+  "zh-TW": "沒有。",
+  "zu": "Cha"
+}
