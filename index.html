@@ -44,8 +44,9 @@
         <div class="bottom-right">
           <div class="fb-share-button" data-href="https://isthereanewhackonfacebook.com/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://isthereanewhackonfacebook.com/">Share</a></div>
           <a href="https://twitter.com/share" class="twitter-share-button" data-text="Is there a new hack on Facebook?" data-url="https://isthereanewhackonfacebook.com/" data-hashtags="FacebookHack" data-show-count="false">Tweet</a>
-          <div class="g-plus" data-action="share" data-annotation="bubble" data-href="https://isthereanewhackonfacebook.com/"></div>
+          <div class="g-plus" data-action="share" data-annotation="none" data-href="https://isthereanewhackonfacebook.com/"></div>
           <div class="g-plusone" data-size="medium" data-annotation="none" data-href="https://isthereanewhackonfacebook.com/"></div>
+          <script type="IN/Share" data-url="https://isthereanewhackonfacebook.com"></script>
         </div>
         <div id="fb-root"></div>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
@@ -55,7 +56,7 @@
           var js, fjs = d.getElementsByTagName(s)[0];
           if (d.getElementById(id)) return;
           js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+          js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -63,8 +64,9 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
         <script type="text/javascript" src="js/storage.min.js"></script>
         <script type="text/javascript" src="js/main.min.js"></script>
-        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
         <script id="answer-template" type="text/x-handlebars-template">
           <h1><center>{{answer}}</center></h1>
         </script>
