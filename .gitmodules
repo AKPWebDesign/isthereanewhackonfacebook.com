@@ -1,0 +1,3 @@
+[submodule "lang/flags"]
+	path = lang/flags
+	url = git@github.com:lipis/flag-icon-css.git
