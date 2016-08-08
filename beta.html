@@ -26,27 +26,19 @@
         <!--[if lt IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="container">
-          <div class="jumbotron" id="answer">
-            <h1><center>No.</center></h1>
-          </div>
+        <div class="container offscreen languages-panel">
+          <ul class="languages"></ul>
+          <button class="btn btn-default btn-xs dropup langCloseButton" type="button">
+            Close
+            <span class="caret"></span>
+          </button>
         </div>
-        <div class="bottom-left">
-          <div class="dropup lang-dropup">
-            <button class="btn btn-default dropdown-toggle" type="button" id="langDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropup
-              <span class="caret"></span>
+        <div class="container">
+          <div class="jumbotron">
+            <button class="btn btn-default btn-xs langButton" type="button" id="langDropdown">
+              English (US)
             </button>
-            <ul class="dropdown-menu languages" aria-labelledby="langDropdown">
-              <li><a href="#" data-lang="en"><span class="flag-icon flag-icon-us"></span> English (US)</a></li>
-              <li><a href="#" data-lang="en"><span class="flag-icon flag-icon-gb"></span> English (UK)</a></li>
-              <li><a href="#" data-lang="af"><span class="flag-icon flag-icon-af"></span> Afrikaans</a></li>
-              <li><a href="#" data-lang="ar"><span class="flag-icon flag-icon-ar"></span> Arabic</a></li>
-              <li><a href="#" data-lang="az"><span class="flag-icon flag-icon-az"></span> Azerbaijani</a></li>
-              <li><a href="#" data-lang="be"><span class="flag-icon flag-icon-be"></span> Belarusian</a></li>
-              <li><a href="#" data-lang="bn"><span class="flag-icon flag-icon-bn"></span> Bengali</a></li>
-              <li><a href="#" data-lang="bg"><span class="flag-icon flag-icon-bg"></span> Bulgarian</a></li>
-            </ul>
+            <div id="answer"><h1><center>No.</center></h1></div>
           </div>
         </div>
         <div class="bottom-right">
@@ -59,7 +51,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/darkly/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.full.css">
-        <link rel="stylesheet" href="lang/flags/css/flag-icon.min.css">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
@@ -76,6 +67,12 @@
         }(document, 'script', 'facebook-jssdk'));</script>
         <script id="answer-template" type="text/x-handlebars-template">
           <h1><center>{{answer}}</center></h1>
+        </script>
+        <script id="lang-dropdown-button-template" type="text/x-handlebars-template">
+            {{name}}
+        </script>
+        <script id="lang-dropdown-list-item-template" type="text/x-handlebars-template">
+          <li><a href="#" data-lang="{{lang}}">{{name}}</a></li>
         </script>
     </body>
 </html>

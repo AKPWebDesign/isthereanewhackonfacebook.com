@@ -1,94 +1,370 @@
 {
-  "af": "Geen.",
-  "ar": ".لا",
-  "az": "Yox.",
-  "be": "Няма.",
-  "bg": "Не.",
-  "bn": "না.",
-  "bs": "Ne.",
-  "ca": "No.",
-  "ceb": "Dili",
-  "cs": "Ne.",
-  "cy": "No.",
-  "da": "Ingen.",
-  "de": "Nein.",
-  "el": "Όχι.",
-  "en": "No.",
-  "eo": "No.",
-  "es": "No.",
-  "et": "Ei.",
-  "eu": "No.",
-  "fa": "شماره",
-  "fi": "Ei.",
-  "fr": "Non.",
-  "ga": "Uimh",
-  "gl": "Non.",
-  "gu": "નં",
-  "ha": "No.",
-  "hi": "नहीं।",
-  "hmn": "No.",
-  "hr": "Ne.",
-  "ht": "No",
-  "hu": "Nem.",
-  "hy": "Ոչ.",
-  "id": "Tidak.",
-  "ig": "Ee e",
-  "is": "Nei",
-  "it": "No.",
-  "iw": "לא.",
-  "ja": "No.",
-  "jw": "No.",
-  "ka": "No.",
-  "kk": "Жоқ",
-  "km": "លេខ",
-  "kn": "ನಂ",
-  "ko": "아니.",
-  "la": "No.",
-  "lo": "ສະບັບເລກທີ",
-  "lt": "Ne.",
-  "lv": "Nē.",
-  "mg": "No.",
-  "mi": "No.",
-  "mk": "Бр",
-  "ml": "നമ്പർ",
-  "mn": "Үгүй",
-  "mr": "क्रमांक",
-  "ms": "No.",
-  "mt": "No",
-  "my": "နံပါတျ",
-  "ne": "न",
-  "nl": "Nee.",
-  "no": "Nei.",
-  "ny": "No.",
-  "pa": "ਨੰ",
-  "pl": "Nie.",
-  "pt": "No.",
-  "ro": "Nu.",
-  "ru": "Нет.",
-  "si": "නැත.",
-  "sk": "Nie.",
-  "sl": "No.",
-  "so": "No.",
-  "sq": "Jo.",
-  "sr": "Не.",
-  "st": "No.",
-  "su": "No.",
-  "sv": "Nej.",
-  "sw": "Hakuna",
-  "ta": "இல்லை.",
-  "te": "నం",
-  "tg": ", №",
-  "th": "เลขที่",
-  "tl": "Hindi.",
-  "tr": "Yok hayır.",
-  "uk": "Немає.",
-  "ur": "نہیں.",
-  "uz": "Yo'q",
-  "vi": "Không.",
-  "yi": "נומ '",
-  "yo": "No.",
-  "zh": "没有。",
-  "zh-CN": "没有。",
-  "zh-TW": "沒有。",
-  "zu": "Cha"
+  "af": {
+    "answer": "Geen.",
+    "name": "Afrikaans"
+  },
+  "ar": {
+    "answer": ".لا",
+    "name": "Arabic"
+  },
+  "az": {
+    "answer": "Yox.",
+    "name": "Azerbaijani"
+  },
+  "be": {
+    "answer": "Няма.",
+    "name": "Belarusian"
+  },
+  "bg": {
+    "answer": "Не.",
+    "name": "Bulgarian"
+  },
+  "bn": {
+    "answer": "না.",
+    "name": "Bengali"
+  },
+  "bs": {
+    "answer": "Ne.",
+    "name": "Bosnian"
+  },
+  "ca": {
+    "answer": "No.",
+    "name": "Catalan"
+  },
+  "ceb": {
+    "answer": "Dili",
+    "name": "Cebuano"
+  },
+  "cs": {
+    "answer": "Ne.",
+    "name": "Czech"
+  },
+  "cy": {
+    "answer": "No.",
+    "name": "Welsh"
+  },
+  "da": {
+    "answer": "Ingen.",
+    "name": "Danish"
+  },
+  "de": {
+    "answer": "Nein.",
+    "name": "German"
+  },
+  "el": {
+    "answer": "Όχι.",
+    "name": "Greek"
+  },
+  "en_us": {
+    "answer": "No.",
+    "name": "English (US)"
+  },
+  "en_gb": {
+    "answer": "No.",
+    "name": "English (UK)"
+  },
+  "eo": {
+    "answer": "No.",
+    "name": "Esperanto"
+  },
+  "es": {
+    "answer": "No.",
+    "name": "Spanish"
+  },
+  "et": {
+    "answer": "Ei.",
+    "name": "Estonian"
+  },
+  "eu": {
+    "answer": "No.",
+    "name": "Basque"
+  },
+  "fa": {
+    "answer": "شماره",
+    "name": "Persian"
+  },
+  "fi": {
+    "answer": "Ei.",
+    "name": "Finnish"
+  },
+  "fr": {
+    "answer": "Non.",
+    "name": "French"
+  },
+  "ga": {
+    "answer": "Uimh",
+    "name": "Irish"
+  },
+  "gl": {
+    "answer": "Non.",
+    "name": "Galician"
+  },
+  "gu": {
+    "answer": "નં",
+    "name": "Gujarati"
+  },
+  "ha": {
+    "answer": "No.",
+    "name": "Hausa"
+  },
+  "hi": {
+    "answer": "नहीं।",
+    "name": "Hindi"
+  },
+  "hmn": {
+    "answer": "No.",
+    "name": "Hmong"
+  },
+  "hr": {
+    "answer": "Ne.",
+    "name": "Croatian"
+  },
+  "ht": {
+    "answer": "No",
+    "name": "Haitian Creole"
+  },
+  "hu": {
+    "answer": "Nem.",
+    "name": "Hungarian"
+  },
+  "hy": {
+    "answer": "Ոչ.",
+    "name": "Armenian"
+  },
+  "id": {
+    "answer": "Tidak.",
+    "name": "Indonesian"
+  },
+  "ig": {
+    "answer": "Ee e",
+    "name": "Igbo"
+  },
+  "is": {
+    "answer": "Nei",
+    "name": "Icelandic"
+  },
+  "it": {
+    "answer": "No.",
+    "name": "Italian"
+  },
+  "iw": {
+    "answer": "לא.",
+    "name": "Hebrew"
+  },
+  "ja": {
+    "answer": "No.",
+    "name": "Japanese"
+  },
+  "jw": {
+    "answer": "No.",
+    "name": "Javanese"
+  },
+  "ka": {
+    "answer": "No.",
+    "name": "Georgian"
+  },
+  "kk": {
+    "answer": "Жоқ",
+    "name": "Kazakh"
+  },
+  "km": {
+    "answer": "លេខ",
+    "name": "Khmer"
+  },
+  "kn": {
+    "answer": "ನಂ",
+    "name": "Kannada"
+  },
+  "ko": {
+    "answer": "아니.",
+    "name": "Korean"
+  },
+  "la": {
+    "answer": "No.",
+    "name": "Latin"
+  },
+  "lo": {
+    "answer": "ສະບັບເລກທີ",
+    "name": "Lao"
+  },
+  "lt": {
+    "answer": "Ne.",
+    "name": "Lithuanian"
+  },
+  "lv": {
+    "answer": "Nē.",
+    "name": "Latvian"
+  },
+  "mg": {
+    "answer": "No.",
+    "name": "Malagasy"
+  },
+  "mi": {
+    "answer": "No.",
+    "name": "Maori"
+  },
+  "mk": {
+    "answer": "Бр",
+    "name": "Macedonian"
+  },
+  "ml": {
+    "answer": "നമ്പർ",
+    "name": "Malayalam"
+  },
+  "mn": {
+    "answer": "Үгүй",
+    "name": "Mongolian"
+  },
+  "mr": {
+    "answer": "क्रमांक",
+    "name": "Marathi"
+  },
+  "ms": {
+    "answer": "No.",
+    "name": "Malay"
+  },
+  "mt": {
+    "answer": "No",
+    "name": "Maltese"
+  },
+  "my": {
+    "answer": "နံပါတျ",
+    "name": "Burmese"
+  },
+  "ne": {
+    "answer": "न",
+    "name": "Nepali"
+  },
+  "nl": {
+    "answer": "Nee.",
+    "name": "Dutch"
+  },
+  "no": {
+    "answer": "Nei.",
+    "name": "Norwegian"
+  },
+  "ny": {
+    "answer": "No.",
+    "name": "Chichewa"
+  },
+  "pa": {
+    "answer": "ਨੰ",
+    "name": "Punjabi"
+  },
+  "pl": {
+    "answer": "Nie.",
+    "name": "Polish"
+  },
+  "pt": {
+    "answer": "No.",
+    "name": "Portuguese"
+  },
+  "ro": {
+    "answer": "Nu.",
+    "name": "Romanian"
+  },
+  "ru": {
+    "answer": "Нет.",
+    "name": "Russian"
+  },
+  "si": {
+    "answer": "නැත.",
+    "name": "Sinhala"
+  },
+  "sk": {
+    "answer": "Nie.",
+    "name": "Slovak"
+  },
+  "sl": {
+    "answer": "No.",
+    "name": "Slovenian"
+  },
+  "so": {
+    "answer": "No.",
+    "name": "Somali"
+  },
+  "sq": {
+    "answer": "Jo.",
+    "name": "Albanian"
+  },
+  "sr": {
+    "answer": "Не.",
+    "name": "Serbian"
+  },
+  "st": {
+    "answer": "No.",
+    "name": "Sesotho"
+  },
+  "su": {
+    "answer": "No.",
+    "name": "Sundanese"
+  },
+  "sv": {
+    "answer": "Nej.",
+    "name": "Swedish"
+  },
+  "sw": {
+    "answer": "Hakuna",
+    "name": "Swahili"
+  },
+  "ta": {
+    "answer": "இல்லை.",
+    "name": "Tamil"
+  },
+  "te": {
+    "answer": "నం",
+    "name": "Telugu"
+  },
+  "tg": {
+    "answer": ", №",
+    "name": "Tajik"
+  },
+  "th": {
+    "answer": "เลขที่",
+    "name": "Thai"
+  },
+  "tl": {
+    "answer": "Hindi.",
+    "name": "Filipino"
+  },
+  "tr": {
+    "answer": "Yok hayır.",
+    "name": "Turkish"
+  },
+  "uk": {
+    "answer": "Немає.",
+    "name": "Ukrainian"
+  },
+  "ur": {
+    "answer": "نہیں.",
+    "name": "Urdu"
+  },
+  "uz": {
+    "answer": "Yo'q",
+    "name": "Uzbek"
+  },
+  "vi": {
+    "answer": "Không.",
+    "name": "Vietnamese"
+  },
+  "yi": {
+    "answer": "נומ '",
+    "name": "Yiddish"
+  },
+  "yo": {
+    "answer": "No.",
+    "name": "Yoruba"
+  },
+  "zh_CN": {
+    "answer": "没有。",
+    "name": "Chinese (Simp.)"
+  },
+  "zh_TW": {
+    "answer": "沒有。",
+    "name": "Chinese (Trad.)"
+  },
+  "zu": {
+    "answer": "Cha",
+    "name": "Zulu"
+  }
 }

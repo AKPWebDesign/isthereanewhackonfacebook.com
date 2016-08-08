@@ -95,8 +95,60 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.container {
-    margin-top: 2em;
+.jumbotron {
+  margin-top: 2em;
+  position: relative;
+}
+
+.offscreen {
+  transform: translateY(-100%);
+}
+
+.onscreen {
+  transform: translateY(0);
+}
+
+.languages-panel {
+  position: fixed;
+  z-index: 9001;
+  border-bottom: 2px solid #aaa;
+  transition-duration: 600ms;
+  width: 100%;
+  height: auto;
+  padding: 1em 0;
+  background-color: #464545;
+}
+
+.languages-panel ul {
+  width: 95%;
+}
+
+.languages {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.languages li {
+  float: left;
+  width: 8em;
+  list-style: none;
+  margin-right: 1em;
+}
+
+.languages li a {
+  color: #eee;
+}
+
+.langButton {
+  position: absolute;
+  top: 0.25em;
+  right: 0.25em;
+}
+
+.langCloseButton {
+  position: absolute;
+  bottom: 0.25em;
+  right: 0.25em;
 }
 
 .bottom-right {
