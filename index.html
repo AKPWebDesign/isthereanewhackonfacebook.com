@@ -26,9 +26,19 @@
         <!--[if lt IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div class="container offscreen languages-panel">
+          <ul class="languages"></ul>
+          <button class="btn btn-default btn-xs dropup langCloseButton" type="button">
+            Close
+            <span class="caret"></span>
+          </button>
+        </div>
         <div class="container">
           <div class="jumbotron">
-            <h1><center>No.</center></h1>
+            <button class="btn btn-default btn-xs langButton" type="button" id="langDropdown">
+              English (US)
+            </button>
+            <div id="answer"><h1><center>No.</center></h1></div>
           </div>
         </div>
         <div class="bottom-right">
@@ -39,8 +49,13 @@
         </div>
         <div id="fb-root"></div>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-S7YMK1xjUjSpEnF4P8hPUcgjXYLZKK3fQW1j5ObLSl787II9p8RO9XUGehRmKsxd" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/darkly/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.min.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+        <script type="text/javascript" src="js/storage.min.js"></script>
+        <script type="text/javascript" src="js/main.min.js"></script>
         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <script>(function(d, s, id) {
@@ -50,5 +65,14 @@
           js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
+        <script id="answer-template" type="text/x-handlebars-template">
+          <h1><center>{{answer}}</center></h1>
+        </script>
+        <script id="lang-dropdown-button-template" type="text/x-handlebars-template">
+            {{name}}
+        </script>
+        <script id="lang-dropdown-list-item-template" type="text/x-handlebars-template">
+          <li><a href="#" data-lang="{{lang}}">{{name}}</a></li>
+        </script>
     </body>
 </html>
