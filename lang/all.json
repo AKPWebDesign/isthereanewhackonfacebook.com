@@ -1,6 +1,6 @@
 {
   "af": {
-    "answer": "Geen.",
+    "answer": "Nee.",
     "name": "Afrikaans"
   },
   "ar": {
@@ -106,6 +106,10 @@
   "ha": {
     "answer": "No.",
     "name": "Hausa"
+  },
+  "harambe": {
+    "answer": "<img src='http://i.imgur.com/op7Ysq6.jpg' alt='dicks out' title='dicks out' />",
+    "name": "Harambe"
   },
   "hi": {
     "answer": "नहीं।",
