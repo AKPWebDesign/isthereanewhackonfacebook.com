@@ -55,6 +55,14 @@
     "answer": "Όχι.",
     "name": "Greek"
   },
+  "en_au": {
+    "answer": "No, ya cunt!",
+    "name": "English (AU)"
+  },
+  "en_ca": {
+    "answer": "Sorry, no.",
+    "name": "English (CA)"
+  },
   "en_us": {
     "answer": "No.",
     "name": "English (US)"
@@ -334,6 +342,10 @@
   "tl": {
     "answer": "Hindi.",
     "name": "Filipino"
+  },
+  "tlh": {
+    "answer": "ghobe'",
+    "name": "Klingon"
   },
   "tr": {
     "answer": "Hayır.",
